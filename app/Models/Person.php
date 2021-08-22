@@ -10,10 +10,10 @@ class Person extends Model
 {
     use HasFactory;
     protected $guarded = array('id');
-    protected $fillable=array('content','comment');
+    protected $fillable=array('share','comment');
 
     public static $rules = array(
-        'content' => 'required|max:120',
+        'share' => 'required|max:120',
         'comment' => 'required | max:120'
     );
 }
