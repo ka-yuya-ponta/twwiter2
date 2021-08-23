@@ -4,6 +4,7 @@
 use App\Http\Controllers\PersonController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\goodsController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -19,3 +20,4 @@ use App\Http\Controllers\CommentController;
 
 Route::apiResource('/Person', PersonController::class);
 Route::apiResource('/comment', CommentController::class);
+Route::apiResource('/good', goodsController::class);
