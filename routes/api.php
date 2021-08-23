@@ -3,7 +3,7 @@
 
 use App\Http\Controllers\PersonController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\CommentController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::apiResource('/Person', PersonController::class);
+Route::apiResource('/comment', CommentController::class);
