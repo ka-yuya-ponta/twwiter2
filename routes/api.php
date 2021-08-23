@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::apiResource('/share', PersonController::class);
+Route::apiResource('/Person', PersonController::class);
